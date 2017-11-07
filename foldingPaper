@@ -6,7 +6,7 @@
 // (If you're not familiar with the concept of folding a paper: Each fold doubles its total thickness.)
 
 // Note: Of course you can't do half a fold. You should know what this means ;P
-
+ 
 // Also, if somebody is giving you a non-positive distance, it's clearly bogus and you should yell at them by returning null/NULL.
 
 
