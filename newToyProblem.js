@@ -7,7 +7,6 @@
 // divisors(13); //should return "13 is prime"
 // You can assume that you will only get positive integers as inputs.
 
-
 function divisors(num){
   var divs = [];
   for(var i=num-1;i>1;i--){
