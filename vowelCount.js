@@ -6,3 +6,4 @@ var vowelsCount = 0;
 }
 return vowelsCount;
 }
+
