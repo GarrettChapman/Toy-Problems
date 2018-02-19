@@ -1,11 +1,32 @@
+// function palindrome(str) {
+//   var cleanStr = str.match(/[a-z0-9]+/gi);
+//   var megaStr = cleanStr.join("").toLowerCase();
+//
+//
+// return megaStr
+// }
+//
+//
+//
+// palindrome("Annie, I vote more cars race Rome-to-Vienna")
+
+
+
 function palindrome(str) {
-  var cleanStr = str.match(/[a-z0-9]+/gi);
-  var megaStr = cleanStr.join("").toLowerCase();
+  var re = /[^A-Za-z0-9]/g;
+  var lowRegStr = str.toLowerCase().replace(re, '');
+  var reverseStr = lowRegStr.split('').reverse().join('');
 
 
-return megaStr
+if ( reverseStr === lowRegStr) {
+  return true
+
+} else {
+  return false
+}
+
 }
 
 
 
-palindrome("Annie, I vote more cars race Rome-to-Vienna")
+palindrome("Anne, I vote more cars race Rome to Vienna.");
