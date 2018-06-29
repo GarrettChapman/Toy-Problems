@@ -7,4 +7,4 @@ for(var i = 0; i < str.length; i++) {
   return str.join("")
 }
 
-doubleChar("abc")
+doubleChar("abc") //"aabbcc"
