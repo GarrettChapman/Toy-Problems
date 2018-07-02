@@ -9,3 +9,7 @@
 }
 
  simpleMultiplication(3)
+
+
+ // ALTERNATE SOLUTION
+ // return number * (number % 2 ? 9 : 8);
