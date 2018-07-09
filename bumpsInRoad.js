@@ -4,11 +4,15 @@
 
 function bump(x){
 
-var len = x.toString().length;
+var len = x.split("_").join("").length;
+console.log(len)
 
-  if(len < 15) {
-    return "Woohoo!"
-  } else {
-    return "Car Dead"
+  if(len <= 15) {
+    return "Woohoo!";
+  } else if (len > 15){
+    return "Car Dead";
   }
+
+
+
 }
