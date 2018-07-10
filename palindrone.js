@@ -13,17 +13,24 @@
 
 
 function palindrome(str) {
-  var re = /[^A-Za-z0-9]/g;
-  var lowRegStr = str.toString().toLowerCase().replace(re, '');
-  var reverseStr = lowRegStr.split('').reverse().join('');
+//   var re = /[^A-Za-z0-9]/g;
+//   var lowRegStr = str.toString().toLowerCase().replace(re, '');
+//   var reverseStr = lowRegStr.split('').reverse().join('');
+//
+//
+// if ( reverseStr === lowRegStr) {
+//   return true
+//
+// } else {
+//   return false
+// }
+
+//ALTERNATE SOLUTION
 
 
-if ( reverseStr === lowRegStr) {
-  return true
+  var str2 = str.split("").reverse().join("");
 
-} else {
-  return false
-}
+return str === str2;
 
 }
 
