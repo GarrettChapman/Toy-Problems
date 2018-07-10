@@ -1,13 +1,16 @@
-//Create an array of size n with the values of the Fibonnaci sequence, and reverse the order in which the sequence is displayed...
+function Fibonnaci(num) {
+  var answer = 1;
+  var firstNum = 0;
+  var secondNum = 1;
 
 
-function iccanobif(num) {
-  var newNum = num-1;
-  var fibArr = []
-  for(var i = 0; i <= newNum; i ++){
-    fibArr.push((fibArr[i-1] || 1) + (fibArr[i-2] || 0))
+  for(var i = 2; i <= num; i++) {
+    answer = firstNum + secondNum;
+    secondNum = firstNum;
+    firstNum = answer;
   }
-  return fibArr.reverse()
+
+  return answer;
 }
 
-iccanobif(3)
+Fibonnaci(20)
