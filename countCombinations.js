@@ -1,12 +1,11 @@
 var countCombinations = function(string, key){
 
-  var string = string.split(key)
+  var string = string.toLowerCase().split(new RegExp(key))
   var count = 0;
 
   for(var i = 1; i < string.length; i++) {
-
+  // console.log(key)
     count++
-
   }
  return count
 }
