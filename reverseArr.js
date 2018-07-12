@@ -7,3 +7,14 @@ function reverseArr(arr) {
   return arr
 }
 reverseArr([1,2,3,4,5])
+
+
+//Alternate SOLUTION
+
+
+
+function reverseArr(arr) {
+
+  return arr.toString().split("  ").reverse().join("");
+
+}
