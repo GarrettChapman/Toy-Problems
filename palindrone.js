@@ -37,3 +37,16 @@ return str === str2;
 
 
 palindrome("Anne, I vote more cars race Rome to Vienna.");
+
+
+
+
+//Alternate SOLUTION
+
+
+// function isPalindrome(str) {
+//   str = str.replace(/\W/g, '').toLowerCase();
+//   return (str == str.split('').reverse().join(''));
+// }
+
+// isPalindrome("water")
