@@ -3,7 +3,7 @@ var countSheep = function (num){
   let result = '';
 
   for (let i = 1; i <= num; i++) {
-    result += i + ' sheep...'
+    result += (i+1) + ' sheep...'
   }
    return result
   }
