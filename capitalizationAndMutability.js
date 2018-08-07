@@ -13,3 +13,10 @@ return cap
 capitalizeWord('word') // 'Word'
 capitalizeWord('i') // 'I'
 calizeWord('glasswear') // 'Glasswear'
+
+//ALTERNATE
+
+
+function capitalizeWord(word) {
+  return word[0].toUpperCase() + word.slice(1);
+}
