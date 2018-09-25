@@ -9,3 +9,10 @@ if (bullets >= (dragons * 2)) {
   }
   return false
 }
+
+
+//Alternate Solution
+
+function hero(bullets, dragons){
+  return bullets >= dragons * 2
+}
