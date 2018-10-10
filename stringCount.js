@@ -1,7 +1,7 @@
 function wordCount (str) {
   var words = str.split(" ");
   var count = 0;
-  for (var i=0; x < words.length; i++){
+  for (var i=0; i < words.length; i++){
     count++
   }
 

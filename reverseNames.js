@@ -1,8 +1,7 @@
 function nameShuffler(str){
 
-  var x = str.split(" ").reverse().join(" ")
+  return str.split(" ").reverse().join(" ")
 
-  return x
 
 }
 
