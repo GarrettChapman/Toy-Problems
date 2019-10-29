@@ -9,11 +9,11 @@ return vowelsCount;
 }
 
 
-//Alternate solution
-// function vowelCount(str) {
-//   return str.replace(/[^aeiou]/gi, '').length;
-// }
+Alternate solution
+function vowelCount(str) {
+  return str.replace(/[^aeiou]/gi, '').length;
+}
 
-// function vowelCount(str) {
-//   return str.match(/[aeiou]/gi).length
-// }
+function vowelCount(str) {
+  return str.match(/[aeiou]/gi).length
+}
