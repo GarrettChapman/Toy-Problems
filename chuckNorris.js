@@ -8,3 +8,10 @@
 function ifChuckSaysSo() {
   return !1;
 }
+
+
+
+
+
+//
+function ifChuckSaysSo(){return !true;}
