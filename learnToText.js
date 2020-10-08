@@ -5,5 +5,10 @@
 // 'look at that octopus' becomes 'look at that oc2pus'
 
 function textin(str){
-return str.replace(/to/gi, "2")
+return str.replace(/to|two|too/gi, "2")
+}
+
+
+function textin(str){
+return str.replace(/(too|two|to)/ig, 2);
 }
